@@ -10,12 +10,14 @@
     tools:context=".MainActivity">
 
     <ImageView
+        android:id="@+id/dice_iv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/empty_dice"
         tools:srcCompat="@drawable/dice_1"/>
 
     <Button
+        android:id="@+id/roll_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/roll_dice"/>
