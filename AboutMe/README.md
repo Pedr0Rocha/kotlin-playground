@@ -1,4 +1,10 @@
 # About Me App
+<a align="center" href="https://img.shields.io/badge/API-19%2B-brightgreen.svg?style=flat">
+    <img alt="Level" src="https://img.shields.io/badge/Level-Beginner-green"/>
+</a>
+<a align="center" href="https://img.shields.io/badge/API-19%2B-brightgreen.svg?style=flat">
+    <img alt="API" src="https://img.shields.io/badge/API-19%2B-brightgreen.svg?style=flat"/>
+</a>
 
 Basic layout concepts demo app
 

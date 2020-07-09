@@ -5,6 +5,7 @@ Small apps to get started and learn more about Android with Kotlin.
 
 #### [Dice Roller](#dice-roller-1)
 #### [About Me App](#about-me-app-1)
+#### [Color My Views](#color-my-views-1)
 
 
 ## Dice Roller
@@ -44,6 +45,25 @@ Resource files like dimens, strings, fonts, styles. Basic layout views and data 
 <div width="100%">
     <img width="28%" src="AboutMe/images/image1.jpeg">
     <img width="28%" src="AboutMe/images/image2.jpeg" align="right">
+</div>
+
+## Color My Views
+<a align="center" href="https://img.shields.io/badge/API-19%2B-brightgreen.svg?style=flat">
+    <img alt="Level" src="https://img.shields.io/badge/Level-Intermediate-yellow"/>
+</a>
+<a align="center" href="https://img.shields.io/badge/API-19%2B-brightgreen.svg?style=flat">
+    <img alt="API" src="https://img.shields.io/badge/API-19%2B-brightgreen.svg?style=flat"/>
+</a>
+
+[Source code](https://github.com/Pedr0Rocha/kotlin-playground/tree/master/ColorMyViews)
+
+Intermediate layout concepts demo
+
+App focused on ConstraintLayout. Building responsive and adaptive layouts using constraints, chaining and base alignment. 
+
+<div width="100%">
+    <img width="28%" src="ColorMyViews/images/image1.jpeg">
+    <img width="28%" src="ColorMyViews/images/image2.jpeg" align="right">
 </div>
 
 ## References
