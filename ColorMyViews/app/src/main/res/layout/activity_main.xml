@@ -73,5 +73,65 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@id/box_four" />
 
+    <TextView
+        android:id="@+id/label_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/layout_margin"
+        android:fontFamily="@font/roboto"
+        android:text="@string/how_to_play"
+        app:layout_constraintBaseline_toBaselineOf="@id/label_instructions"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/label_instructions"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/layout_margin"
+        android:layout_marginEnd="@dimen/layout_margin"
+        android:layout_marginStart="@dimen/layout_margin"
+        android:layout_marginBottom="@dimen/layout_margin"
+        android:fontFamily="@font/roboto"
+        android:text="@string/instructions"
+        app:layout_constraintBottom_toTopOf="@id/green_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/label_text"
+        app:layout_constraintTop_toBottomOf="@id/box_two" />
+
+    <Button
+        android:id="@+id/red_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto"
+        android:text="@string/red"
+        app:layout_constraintBaseline_toBaselineOf="@id/green_button"
+        app:layout_constraintEnd_toStartOf="@+id/green_button"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/green_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/layout_margin"
+        android:layout_marginBottom="@dimen/layout_margin"
+        android:fontFamily="@font/roboto"
+        android:text="@string/green"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/blue_button"
+        app:layout_constraintStart_toEndOf="@+id/red_button"
+        app:layout_constraintTop_toBottomOf="@id/label_text"
+        app:layout_constraintVertical_bias="1" />
+
+    <Button
+        android:id="@+id/blue_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto"
+        android:text="@string/blue"
+        app:layout_constraintBaseline_toBaselineOf="@id/green_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/green_button" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

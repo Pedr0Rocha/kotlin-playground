@@ -8,4 +8,9 @@
     <string name="button_one">Button One</string>
     <string name="button_two">Button Two</string>
     <string name="button_three">Button Three</string>
+    <string name="how_to_play">How to play:</string>
+    <string name="instructions">Click the buttons, background or boxes to change colors of the elements</string>
+    <string name="red">red</string>
+    <string name="green">green</string>
+    <string name="blue">blue</string>
 </resources>
