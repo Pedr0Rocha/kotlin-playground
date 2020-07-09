@@ -10,15 +10,20 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
 import androidx.databinding.DataBindingUtil
+import com.pedrorocha.aboutme.data.Person
 import com.pedrorocha.aboutme.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
 
+    private val person: Person = Person("Pedro Rocha")
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
+
+        binding.person = person
 
         binding.doneButton.setOnClickListener {
             addNickname(it)
@@ -27,8 +32,9 @@ class MainActivity : AppCompatActivity() {
 
     private fun addNickname(view: View) {
         binding.apply {
-            binding.nicknameText.text = binding.nicknameEdit.text
+            person?.nickname = binding.nicknameEdit.text.toString()
             binding.invalidateAll()
+
             binding.nicknameEdit.visibility = View.GONE
             view.visibility = View.GONE
             binding.nicknameText.visibility = View.VISIBLE

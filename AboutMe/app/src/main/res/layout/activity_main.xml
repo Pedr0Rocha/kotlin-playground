@@ -4,6 +4,9 @@
 
     <data>
 
+        <variable
+            name="person"
+            type="com.pedrorocha.aboutme.data.Person"/>
     </data>
 
     <LinearLayout
@@ -19,14 +22,16 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/layout_margin"
-            android:text="@string/name"
-            android:textAlignment="center" />
+            android:text="@={person.name}"
+            android:textAlignment="center"
+            tools:text="Pedro Rocha" />
 
         <EditText
             android:id="@+id/nickname_edit"
             style="@style/RegularText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:autofillHints="nickname"
             android:hint="@string/type_your_nickname"
             android:inputType="textPersonName"
             android:textAlignment="center" />
@@ -45,6 +50,7 @@
             style="@style/RegularText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:text="@={person.nickname}"
             android:textAlignment="center"
             android:visibility="gone" />
 
