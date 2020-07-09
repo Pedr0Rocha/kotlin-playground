@@ -3,8 +3,8 @@
 # Kotlin Playground
 Small apps to get started and learn more about Android with Kotlin. 
 
-#### [Dice Roller](#markdown-header-dice-roller)
-#### [About Me App](#markdown-header-about-me-app)
+#### [Dice Roller](#dice-roller-1)
+#### [About Me App](#about-me-app-1)
 
 
 ## Dice Roller
