@@ -3,6 +3,10 @@
 # Kotlin Playground
 Small apps to get started and learn more about Android with Kotlin. 
 
+#### [Dice Roller](#markdown-header-dice-roller)
+#### [About Me App](#markdown-header-about-me-app)
+
+
 ## Dice Roller
 <a align="center" href="https://img.shields.io/badge/API-19%2B-brightgreen.svg?style=flat">
     <img alt="Level" src="https://img.shields.io/badge/Level-Beginner-green"/>
