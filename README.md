@@ -62,7 +62,7 @@ Intermediate layout concepts demo
 App focused on ConstraintLayout. Building responsive and adaptive layouts using constraints, chaining and base alignment. 
 
 <div width="100%">
-    <img width="28%" src="ColorMyViews/images/image1.jpeg">
+    <img width="50%" src="ColorMyViews/images/image1.jpeg">
     <img width="28%" src="ColorMyViews/images/image2.jpeg" align="right">
 </div>
 
