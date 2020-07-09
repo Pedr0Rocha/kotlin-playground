@@ -2,6 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
@@ -12,65 +13,65 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/layout_margin"
-        android:layout_marginEnd="@dimen/layout_margin"
         android:layout_marginTop="@dimen/layout_margin"
+        android:layout_marginEnd="@dimen/layout_margin"
         android:text="@string/box_one"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"/>
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        style="@style/Box"
         android:id="@+id/box_two"
+        style="@style/Box"
         android:layout_width="130dp"
         android:layout_height="130dp"
-        android:text="@string/box_two"
         android:layout_marginStart="@dimen/layout_margin"
-        android:layout_marginEnd="@dimen/layout_margin"
         android:layout_marginTop="@dimen/layout_margin"
-        app:layout_constraintTop_toBottomOf="@id/box_one"
-        app:layout_constraintStart_toStartOf="parent"/>
+        android:layout_marginEnd="@dimen/layout_margin"
+        android:text="@string/box_two"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/box_one" />
 
     <TextView
-        style="@style/Box"
         android:id="@+id/box_three"
+        style="@style/Box"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/layout_margin"
         android:layout_marginEnd="@dimen/layout_margin"
-        app:layout_constraintTop_toTopOf="@id/box_two"
+        android:text="@string/box_three"
+        app:layout_constraintBottom_toTopOf="@id/box_four"
         app:layout_constraintLeft_toRightOf="@id/box_two"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintBottom_toTopOf="@id/box_four"
-        android:text="@string/box_three"/>
+        app:layout_constraintTop_toTopOf="@id/box_two" />
 
     <TextView
-        style="@style/Box"
         android:id="@+id/box_four"
+        style="@style/Box"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/layout_margin"
+        android:layout_marginTop="@dimen/layout_margin"
         android:layout_marginEnd="@dimen/layout_margin"
         android:layout_marginBottom="@dimen/layout_margin"
-        android:layout_marginTop="@dimen/layout_margin"
-        app:layout_constraintTop_toBottomOf="@id/box_three"
+        android:text="@string/box_four"
+        app:layout_constraintBottom_toTopOf="@id/box_five"
         app:layout_constraintLeft_toRightOf="@id/box_two"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintBottom_toTopOf="@id/box_five"
-        android:text="@string/box_four"/>
+        app:layout_constraintTop_toBottomOf="@id/box_three" />
 
     <TextView
-        style="@style/Box"
         android:id="@+id/box_five"
+        style="@style/Box"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/layout_margin"
         android:layout_marginEnd="@dimen/layout_margin"
+        android:text="@string/box_five"
         app:layout_constraintBottom_toBottomOf="@id/box_two"
-        app:layout_constraintTop_toBottomOf="@id/box_four"
         app:layout_constraintLeft_toRightOf="@id/box_two"
         app:layout_constraintRight_toRightOf="parent"
-        android:text="@string/box_five"/>
+        app:layout_constraintTop_toBottomOf="@id/box_four" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
