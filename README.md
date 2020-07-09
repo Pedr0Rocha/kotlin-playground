@@ -1,6 +1,6 @@
 <a href="https://opensource.org/licenses/Apache-2.0"><img alt="License" src="https://img.shields.io/badge/License-Apache%202.0-blue.svg"/></a>
 
-# Kotlin Playground
+<h1 align="center">Kotlin Playground</h1>
 Small apps to get started and learn more about Android with Kotlin. 
 
 #### [Dice Roller](#dice-roller-1)
