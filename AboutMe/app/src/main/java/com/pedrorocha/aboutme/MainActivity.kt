@@ -1,14 +1,10 @@
 package com.pedrorocha.aboutme
 
 import android.content.Context
-import android.inputmethodservice.InputMethodService
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.view.inputmethod.InputMethodManager
-import android.widget.Button
-import android.widget.EditText
-import android.widget.TextView
 import androidx.databinding.DataBindingUtil
 import com.pedrorocha.aboutme.data.Person
 import com.pedrorocha.aboutme.databinding.ActivityMainBinding
