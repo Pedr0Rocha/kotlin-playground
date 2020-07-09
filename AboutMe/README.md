@@ -14,4 +14,6 @@ Topics:
 - Custom fonts
 - ScrollView
 - Data binding
-    - Increase performance, reduce boilerplate code.
+    - Increase performance, reduce boilerplate code. Generates binding object at compile time for all views in the layout. FindViewById is slower because it traverses the view hierarchy at runtime to find a view at every call.
+- Data class
+    - Simple Kotlin class to store data.
